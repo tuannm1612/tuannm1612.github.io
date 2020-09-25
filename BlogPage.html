@@ -1,0 +1,9 @@
+---
+title: blog
+layout: default
+---
+<div class="content">
+    {% for post in site.posts %}
+             <p class="header"> <a class="blog" href="{{ post.url }}">{{ post.title }}</a></p>
+    {% endfor %}
+</div>
